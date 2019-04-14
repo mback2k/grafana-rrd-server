@@ -5,4 +5,4 @@ run:
 	go run rrdserver.go
 
 deps:
-	glide i
+	go mod tidy
